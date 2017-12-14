@@ -43,7 +43,7 @@
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a></span>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#education">Education</a>
@@ -62,7 +62,7 @@
 
       <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
         <div class="my-auto">
-          <h1 class="mb-0">CHUNG-GON
+          <h1 class="mb-0"><span class="DayAndNightAdjColor">CHUNG-GON</span>
             <span class="text-primary">OK</span>
           </h1>
           <div class="subheading mb-5">E-mail adress
@@ -77,6 +77,17 @@
                   <i class="fa fa-github fa-stack-1x fa-inverse"></i>
                 </span>
               </a>
+            </li>
+             <li class="list-inline-item">
+              <button onclick= "document.querySelector('body').style.backgroundColor='black';
+                                document.querySelector('body').style.color='white';
+                                document.querySelector('.DayAndNightAdjColor').style.color='white';">night</button>
+
+            </li>
+              <li class="list-inline-item">
+                <button onclick= "document.querySelector('body').style.backgroundColor='white';
+                                  document.querySelector('body').style.color='black';
+                                  document.querySelector('.DayAndNightAdjColor').style.color='#343a40';">day</button>
             </li>
           </ul>
         </div>
